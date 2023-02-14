@@ -555,7 +555,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: -122px;
 }
 .newsletter-bx h3 {
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: 0.5px;
   line-height: 1.2em;
 }
@@ -568,7 +568,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   align-items: center;
 }
-.new-email-bx::before {
+/*.new-email-bx::before {
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   border-radius: 20px;
@@ -589,7 +589,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   left: 0;
   bottom: 0;
   right: 0;
-}
+}*/
 .new-email-bx input {
   width: 100%;
   color: #121212;

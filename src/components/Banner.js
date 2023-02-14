@@ -58,7 +58,6 @@ export const Banner = () => {
                 <span className="tagline">Ayzalme's Portofolio</span>
                 <h1>{`Halo! Saya Rizal.`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Designer", "Programmer", "Trader" ]'><span className="wrap">{text}</span></span></h1>
                   <p> Ini adalah website yang dibuat dari hasil <b>KANGING</b> project in github :v</p><br></br>
-                  <span className="tagline">Haloo Saya Rizal, saya lahir di Bogor pada 4 Januari 2005, tinggal di loji ga suka makan rumput dan selamat datang di portofolio saya &#128537;</span>
               </div>}
             </TrackVisibility>
           </Col>
@@ -67,6 +66,14 @@ export const Banner = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
                   <img src={headerImg} alt="Header Img"/>
+                </div>}
+            </TrackVisibility>
+          </Col>
+          <Col xs={12} md={13} xl={13}>
+            <TrackVisibility>
+              {({ isVisible }) =>
+                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                    <span className="tagline">Haloo Saya Rizal, saya lahir di Bogor pada 4 Januari 2005, tinggal di loji ga suka makan rumput dan selamat datang di portofolio saya &#128537;</span>
                 </div>}
             </TrackVisibility>
           </Col>
