@@ -51,7 +51,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Riwayat</h2>
-                <p>Riwayat Pendidikan dan Projects saya...<br></br>Ya perjalanan dari SD sampe Sekarang SMK yang penuh ehiehi dan juga ada project saya yang ga pernah lanjut :p</p>
+                <p>Riwayat Pendidikan dan Projects saya...<br></br><br></br>Ini perjalanan dari SD sampe Sekarang SMK dan juga ada project saya yang ga pernah lanjut :p</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
