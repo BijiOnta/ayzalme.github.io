@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Ayzalme's Portofolio</span>
                 <h1>{`Halo! Saya Rizal.`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Designer", "Programmer", "Trader" ]'><span className="wrap">{text}</span></span></h1>
-                <p> Ini adalah website yang dibuat dari hasil <b>KANGING</b> project in github :v</p><br></br>
+                <p>Website portofolio simple di buat dengan React and Love &#9829;</p><br></br>
               </div>}
             </TrackVisibility>
           </Col>
@@ -73,7 +73,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                    <span className="tagline">Sedikit tentang saya, lahir di Bogor pada 4 Januari 2005, tinggal di loji ga suka makan rumput, hobby nya rebahan ngegame tidur.<br></br><br></br>Makan Ikan Di Pinggir Kali, selamat datang di portofolio saya &#128537;</span>
+                    <span className="tagline">Sedikit tentang saya, lahir di Bogor pada 4 Januari 2005, tinggal di loji ga suka makan rumput, hobby nya rebahan ngegame tidur.<br></br><br></br>Makan Ikan Di Pinggir Kali, Selamat Datang Di Portofolio Saya &#128535;</span>
                 </div>}
             </TrackVisibility>
           </Col>
