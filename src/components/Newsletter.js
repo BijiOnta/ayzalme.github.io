@@ -5,9 +5,9 @@ export const Newsletter = () => {
 
   return (
       <Col lg={12}>
-        <div className="newsletter-bx wow slideInUp">
-          <h3 className="kotak">XII MMB The Best!</h3>
-        </div>
+        <div className="newsletter-bx tengah tombol">
+            <button className="kotak">XII MMB The Best!</button>
+	</div>
       </Col>
   )
 }

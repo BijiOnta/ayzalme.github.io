@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Ayzalme's Portofolio</span>
                 <h1>{`Halo! Saya Rizal.`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Designer", "Programmer", "Trader" ]'><span className="wrap">{text}</span></span></h1>
-                  <p> Ini adalah website yang dibuat dari hasil <b>KANGING</b> project in github :v</p><br></br>
+                <p> Ini adalah website yang dibuat dari hasil <b>KANGING</b> project in github :v</p><br></br>
               </div>}
             </TrackVisibility>
           </Col>
