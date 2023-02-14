@@ -73,7 +73,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                    <span className="tagline">Haloo Saya Rizal, saya lahir di Bogor pada 4 Januari 2005, tinggal di loji ga suka makan rumput dan selamat datang di portofolio saya &#128537;</span>
+                    <span className="tagline">Sedikit tentang saya, lahir di Bogor pada 4 Januari 2005, tinggal di loji ga suka makan rumput, hobby nya rebahan ngegame tidur.<br></br><br></br>Makan Ikan Di Pinggir Kali, selamat datang di portofolio saya &#128537;</span>
                 </div>}
             </TrackVisibility>
           </Col>
