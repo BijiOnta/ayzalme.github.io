@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/sd.png";
-import projImg2 from "../assets/img/smp.png";
-import projImg3 from "../assets/img/smk.png";
+import projImg2 from "../assets/img/smp.webp";
+import projImg3 from "../assets/img/smk.webp";
 import web from "../assets/img/web.png";
 import andro from "../assets/img/andro.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
